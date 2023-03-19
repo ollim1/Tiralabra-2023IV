@@ -4,10 +4,9 @@ A simple chess AI in written in C. A software project done for the [Data Structu
 
 # Documentation links
 
-## [Design document](doc/design.md)
+### [Design document](doc/design.md)
 
 ## Weekly reports
-
-
+### [Week 1](docs/weekly1.md)
 
 # Test coverage
