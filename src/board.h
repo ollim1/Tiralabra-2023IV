@@ -11,7 +11,7 @@ enum Type {
     KING
 };
 enum Color {
-    BLACK = 1,
+    BLACK,
     WHITE
 };
 
@@ -20,19 +20,13 @@ typedef struct piece_t {
     enum Color color;
 } Piece;
 
-const enum Type SETUP[] =
-{
-    ROOK, KNIGHT, BISHOP, KING,
-    QUEEN, BISHOP, KNIGHT, ROOK
-};
-
-typedef struct chessboard_t {
+typedef struct board_t {
     Piece board[8][8];
 } Board;
 
 Board *new_board();
 void del_board(Board *);
 
-void init_board(Board *board);
+void board_print(Board *);
 Piece move(Board *, char*);
 #endif

@@ -7,7 +7,8 @@ A simple chess AI in written in C. A software project done for the [Data Structu
 ### [Design document](doc/design.md)
 
 ## Weekly reports
-### [Week 1](docs/weekly1.md)
-### [Week 2](docs/weekly2.md)
+### [Week 1](doc/weekly1.md)
+### [Week 2](doc/weekly2.md)
+### [Week 3](doc/weekly3.md)
 
 # Test coverage

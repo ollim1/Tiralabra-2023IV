@@ -1,12 +1,12 @@
 CC=gcc
-CFLAGS=-O2 -std=c11 -pedantic -Werror -Wall
+CFLAGS=-O2 -std=c11 -pedantic -Werror -Wall -fcommon
 
 SRCDIR=./src
 SRCLIST=$(wildcard $(SRCDIR)/*.c)
 OBJLIST=$(SRCLIST:.c=.o)
 
 %.o: %.c
-	$(CC) $(CFLAGS) -c -o $@ $<
+	$(CC) $(CFLAGS) -c -o $@ $^
 
 .PHONY: all clean
 
