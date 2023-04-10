@@ -11,6 +11,7 @@ enum Type {
     KING
 };
 enum Color {
+    EMPTY = 0,
     BLACK,
     WHITE
 };

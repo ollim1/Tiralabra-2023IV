@@ -1,5 +1,6 @@
 CC=gcc
 CFLAGS=-O2 -std=c11 -pedantic -Werror -Wall -fcommon
+LDFLAGS="-L/opt/homebrew/lib"
 
 SRCDIR=./src
 SRCLIST=$(wildcard $(SRCDIR)/*.c)
